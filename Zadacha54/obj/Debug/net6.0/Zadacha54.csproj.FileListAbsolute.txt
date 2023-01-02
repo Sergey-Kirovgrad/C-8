@@ -1,0 +1,15 @@
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\bin\Debug\net6.0\Zadacha54.exe
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\bin\Debug\net6.0\Zadacha54.deps.json
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\bin\Debug\net6.0\Zadacha54.runtimeconfig.json
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\bin\Debug\net6.0\Zadacha54.dll
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\bin\Debug\net6.0\Zadacha54.pdb
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\obj\Debug\net6.0\Zadacha54.csproj.AssemblyReference.cache
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\obj\Debug\net6.0\Zadacha54.GeneratedMSBuildEditorConfig.editorconfig
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\obj\Debug\net6.0\Zadacha54.AssemblyInfoInputs.cache
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\obj\Debug\net6.0\Zadacha54.AssemblyInfo.cs
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\obj\Debug\net6.0\Zadacha54.csproj.CoreCompileInputs.cache
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\obj\Debug\net6.0\Zadacha54.dll
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\obj\Debug\net6.0\refint\Zadacha54.dll
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\obj\Debug\net6.0\Zadacha54.pdb
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\obj\Debug\net6.0\Zadacha54.genruntimeconfig.cache
+D:\Сетевая папка\Домашние задания по C#\DZ№8\Zadacha54\obj\Debug\net6.0\ref\Zadacha54.dll
