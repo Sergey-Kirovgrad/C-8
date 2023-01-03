@@ -1,63 +1,40 @@
-﻿using System;
-using static System.Console;
+﻿//Напишите программу, которая заполнит спирально массив 4 на 4. 
 
+Console.WriteLine("Введите размер массива");
+int size = Convert.ToInt32(Console.ReadLine());
 
-Clear();
-Write("Введите введите размеры массива через пробел: ");
-string[] nums = ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
-int[,,] array = GetArray(new int[] { int.Parse(nums[0]), int.Parse(nums[1]), int.Parse(nums[2]) }, 10, 99);
-PrintArray(array);
+int[,] nums = new int[size, size];
 
+int num = 1;
+int i = 0;
+int j = 0;
 
-int[,,] GetArray(int[] sizes, int min, int max)
+while (num <= size * size)
 {
-    int[,,] result = new int[sizes[0], sizes[1], sizes[2]];
-    for (int i = 0; i < result.GetLength(0); i++)
-    {
-        for (int j = 0; j < result.GetLength(1); j++)
-        {
-            int k = 0;
-            while (k < result.GetLength(2))
-            {
-                int element = new Random().Next(min, max + 1);
-                if (FindElement(result, element)) continue;
-                result[i, j, k] = element;
-                k++;
-            }
-        }
-    }
-    return result;
+    nums[i, j] = num;
+    if (i <= j + 1 && i + j < size - 1)
+        ++j;
+    else if (i < j && i + j >= size - 1)
+        ++i;
+    else if (i >= j && i + j > size - 1)
+        --j;
+    else
+        --i;
+    ++num;
 }
 
+PrintArray(nums);
 
-bool FindElement(int[,,] array, int el)
+void PrintArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
-    {
+     {
+        
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            for (int k = 0; k < array.GetLength(2); k++)
-            {
-                if (array[i, j, k] == el) return true;
-            }
+            Console.Write($" {array[i, j]} ");
         }
+        
+        Console.WriteLine();
     }
-    return false;
-}
-
-void PrintArray(int[,,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            for (int k = 0; k < array.GetLength(2); k++)
-            {
-                Write($"{array[i, j, k]} ({i},{j},{k})   ");
-            }
-            WriteLine();
-        }
-        WriteLine();
-    }
-
 }
